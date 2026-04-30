@@ -1,0 +1,11 @@
+file_format: "1"
+id: custom_split
+name: Custom Split
+type: shield
+url: 
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - custom_split_left
+  - custom_split_right

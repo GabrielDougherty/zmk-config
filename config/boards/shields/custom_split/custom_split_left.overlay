@@ -1,0 +1,25 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "custom_split.dtsi"
+
+&kscan0 {
+    row-gpios
+        = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // P1.13 (top)
+        , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // P1.11
+        , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // P0.10
+        , <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // P0.09 (bottom)
+        ;
+
+    col-gpios
+        = <&gpio0 22 GPIO_ACTIVE_HIGH>  // P0.22 (col0 - leftmost)
+        , <&gpio0 24 GPIO_ACTIVE_HIGH>  // P0.24 (col1)
+        , <&gpio1 0  GPIO_ACTIVE_HIGH>  // P1.00 (col2)
+        , <&gpio0 11 GPIO_ACTIVE_HIGH>  // P0.11 (col3)
+        , <&gpio1 4  GPIO_ACTIVE_HIGH>  // P1.04 (col4)
+        , <&gpio1 6  GPIO_ACTIVE_HIGH>  // P1.06 (col5 - rightmost)
+        ;
+};
