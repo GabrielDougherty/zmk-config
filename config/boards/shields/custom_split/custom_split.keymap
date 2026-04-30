@@ -14,15 +14,15 @@
 
         default_layer {
 // Matrix layout (col0=leftmost, col5=rightmost):
-// Row 0: [ empty,   W,    E,    R,    T,  empty ]
-// Row 1: [   Q,     S,    D,    F,    G,  empty ]  
-// Row 2: [   A,     X,    C,    V,    B,  empty ]
-// Row 3: [   Z,     1,    2,    3,    4,    5   ]
+// Left:  [ empty,   W,    E,    R,    T,  empty ] | Right: [ empty,   Y,    U,    I,    O,  empty ]
+// Left:  [   Q,     S,    D,    F,    G,  empty ] | Right: [ empty,   H,    J,    K,    L,  empty ]  
+// Left:  [   A,     X,    C,    V,    B,  empty ] | Right: [ empty,   N,    M,   ,,    .,  empty ]
+// Left:  [   Z,     1,    2,    3,    4,    5   ] | Right: [   6,     7,    8,    9,    0,    P   ]
             bindings = <
-                    &kp W   &kp E   &kp R   &kp T
-   &kp Q    &kp S   &kp D   &kp F   &kp G
-   &kp A    &kp X   &kp C   &kp V   &kp B
-   &kp Z    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+                    &kp W   &kp E   &kp R   &kp T                           &none   &none   &none   &none
+   &kp Q    &kp S   &kp D   &kp F   &kp G           &none   &none   &none   &none   &none
+   &kp A    &kp X   &kp C   &kp V   &kp B           &none   &none   &none   &none   &none
+   &kp Z    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &none   &none   &none   &none   &none   &none
             >;
         };
     };

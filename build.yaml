@@ -21,3 +21,5 @@
 include:
   - board: nice_nano_v2
     shield: custom_split_left
+  - board: nice_nano_v2
+    shield: custom_split_right
