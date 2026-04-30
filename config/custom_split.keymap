@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+// Matrix layout (col0=leftmost, col5=rightmost):
+// Row 0: [ empty,   W,    E,    R,    T,  empty ]
+// Row 1: [   Q,     S,    D,    F,    G,  empty ]  
+// Row 2: [   A,     X,    C,    V,    B,  empty ]
+// Row 3: [   Z,     1,    2,    3,    4,    5   ]
+            bindings = <
+                    &kp W   &kp E   &kp R   &kp T
+   &kp Q    &kp S   &kp D   &kp F   &kp G
+   &kp A    &kp X   &kp C   &kp V   &kp B
+   &kp Z    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+            >;
+        };
+    };
+};
