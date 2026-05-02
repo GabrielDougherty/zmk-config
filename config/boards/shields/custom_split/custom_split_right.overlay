@@ -19,11 +19,11 @@
         ;
 
     col-gpios
-        = <&gpio1 6  GPIO_ACTIVE_HIGH>  // P1.06 (col0 - rightmost physical)
-        , <&gpio1 4  GPIO_ACTIVE_HIGH>  // P1.04 (col1)
-        , <&gpio0 11 GPIO_ACTIVE_HIGH>  // P0.11 (col2)
-        , <&gpio1 0  GPIO_ACTIVE_HIGH>  // P1.00 (col3)
-        , <&gpio0 24 GPIO_ACTIVE_HIGH>  // P0.24 (col4)
-        , <&gpio0 22 GPIO_ACTIVE_HIGH>  // P0.22 (col5 - leftmost physical)
+        = <&gpio0 22 GPIO_ACTIVE_HIGH>  // P0.22 (col0 - rightmost physical)
+        , <&gpio0 24 GPIO_ACTIVE_HIGH>  // P0.24 (col1)
+        , <&gpio1 0  GPIO_ACTIVE_HIGH>  // P1.00 (col2)
+        , <&gpio0 11 GPIO_ACTIVE_HIGH>  // P0.11 (col3)
+        , <&gpio1 4  GPIO_ACTIVE_HIGH>  // P1.04 (col4)
+        , <&gpio1 6  GPIO_ACTIVE_HIGH>  // P1.06 (col5 - leftmost physical)
         ;
 };
