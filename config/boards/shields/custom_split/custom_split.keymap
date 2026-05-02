@@ -19,10 +19,10 @@
 // Left:  [   A,     X,    C,    V,    B,  empty ] | Right: [ empty,   N,    M,   ,,    .,  empty ]
 // Left:  [   Z,     1,    2,    3,    4,    5   ] | Right: [   6,     7,    8,    9,    0,    P   ]
             bindings = <
-                    &kp W   &kp E   &kp R   &kp T                           &none   &none   &none   &none
-   &kp Q    &kp S   &kp D   &kp F   &kp G           &none   &none   &none   &none   &none
-   &kp A    &kp X   &kp C   &kp V   &kp B           &none   &none   &none   &none   &none
-   &kp Z    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &none   &none   &none   &none   &none   &none
+                    &kp W   &kp E   &kp R   &kp T                           &kp Y   &kp U   &kp I   &kp O
+   &kp Q    &kp S   &kp D   &kp F   &kp G           &kp H   &kp J   &kp K   &kp L   &none
+   &kp A    &kp X   &kp C   &kp V   &kp B           &kp N   &kp M   &kp COMMA &kp DOT &none
+   &kp Z    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp P
             >;
         };
     };
