@@ -23,7 +23,7 @@ python3 flash.py --reset
 
 this pulls the latest firmware from GitHub and flashes it.
 
-Then to flash a half of the keyboard:
+Then to flash a half of the keyboard, put it back into bootloader mode and flash its respective side:
 
 ```bash
 python3 flash.py --left
