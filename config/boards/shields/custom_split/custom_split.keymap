@@ -39,7 +39,7 @@
         };
 	   layer_1 {
         display-name = "Layer 1";
-        bindings = 
+        bindings = <
                 &trans  &trans  &trans  &trans                           &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
@@ -49,7 +49,7 @@
 
     layer_2 {
         display-name = "Layer 2";
-        bindings = 
+        bindings = <
                 &trans  &trans  &trans  &trans                           &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
