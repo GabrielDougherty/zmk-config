@@ -4,16 +4,16 @@
 if SHIELD_CUSTOM_SPLIT_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Custom Split"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-	default y
+	default "Gabe KB Left"
 
 endif
 
 if SHIELD_CUSTOM_SPLIT_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Custom Split"
+	default "Gabe KB Right"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
 
 endif
