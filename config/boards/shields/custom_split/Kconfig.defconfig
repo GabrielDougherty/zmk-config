@@ -16,4 +16,7 @@ if SHIELD_CUSTOM_SPLIT_RIGHT
 config ZMK_KEYBOARD_NAME
 	default "Gabe KB Right"
 
+config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
+	default y
+
 endif
