@@ -34,7 +34,7 @@
                     &kp W   &kp E   &kp R   &kp T                           &kp Y   &kp U   &kp I   &kp O
    &kp Q    &kp S   &kp D   &kp F   &kp G           &kp H   &kp J   &kp K   &kp L   &kp P
    &kp A    &kp X   &kp C   &kp V   &kp B           &kp N   &kp M   &kp COMMA &kp DOT &kp SEMI
-   &kp Z    &kp N1  &kp N2  &kp N3  &kp N4  &kp &sys_reset  &kp &sys_reset  &kp N7  &kp N8  &kp N9  &kp N0  &kp SLASH
+   &kp Z    &kp N1  &kp N2  &kp N3  &bt BT_CLR_ALL  &sys_reset  &sys_reset  &bt BT_CLR_ALL &kp N8  &kp N9  &kp N0  &kp SLASH
             >;
         };
 	   layer_1 {
