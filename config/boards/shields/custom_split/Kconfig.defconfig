@@ -1,19 +1,20 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_CUSTOM_SPLIT_LEFT
+if SHIELD_MY_KEYBOARD_LEFT
 
+# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-	default "Gabe KB Left"
+    default "Gabe Split KB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	default y
+    default y
 
 endif
 
-if SHIELD_CUSTOM_SPLIT_RIGHT
+if SHIELD_MY_KEYBOARD_LEFT || SHIELD_MY_KEYBOARD_RIGHT
 
-config ZMK_KEYBOARD_NAME
-	default "Gabe KB Right"
+config ZMK_SPLIT
+    default y
 
 endif
